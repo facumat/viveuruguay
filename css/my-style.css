@@ -1,7 +1,28 @@
 * {
     font-family: 'Roboto Mono', monospace;
+    color: #f0f0f0;
 }
 
 body {
-    padding-top: 55px;
+    margin: 0;
+    padding: 35px;
+    background-color: #1f1f1f;
+    text-align: left;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.hey {
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+    position: fixed;
+}
+
+.bye {
+    bottom: 0;
+    position: fixed;
+    padding-bottom: 25px;
 }

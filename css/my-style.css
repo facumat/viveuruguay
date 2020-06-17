@@ -17,8 +17,7 @@ body {
 .hey {
     font-size: 36px;
     font-weight: 700;
-    float: left;
-    position: fixed;
+    line-height: 120%;
 }
 
 .bye {

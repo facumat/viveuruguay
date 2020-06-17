@@ -34,6 +34,7 @@ body {
     .col-lg-4 {
         border-top: 1px solid #f0f0f0;
         padding-top: 15px;
+        padding-left: 0 !important;
     }
 
     .col-lg-4:first-child {
@@ -41,3 +42,7 @@ body {
         padding-top: 0;
     }
  }
+
+ .row:before, .row:after {
+    display: flex !important;
+    }

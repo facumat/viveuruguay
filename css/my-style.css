@@ -30,6 +30,14 @@ body {
     color: #ffe645;
 }
 
-.social {
-    padding-top: 0px;
-}
+@media (max-width: 992px) { 
+    .col-lg-4 {
+        border-top: 1px solid #f0f0f0;
+        padding-top: 15px;
+    }
+
+    .col-lg-4:first-child {
+        border-top: none;
+        padding-top: 0;
+    }
+ }

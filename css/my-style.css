@@ -50,3 +50,8 @@ body {
 a:-webkit-any-link{
 text-decoration:none !important;
 }
+
+a { 
+    text-decoration: none;
+    outline: none;
+}

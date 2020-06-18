@@ -46,3 +46,7 @@ body {
  .row:before, .row:after {
     display: flex !important;
     }
+
+a:-webkit-any-link{
+text-decoration:none !important;
+}
